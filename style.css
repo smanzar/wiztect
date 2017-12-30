@@ -1,0 +1,280 @@
+@font-face{
+    font-family: sketchetik;
+    src: url('../fonts/Sketchetik-Light.tff')
+}
+@font-face{
+    font-family: myraid;
+    src: url('../fonts/MyriadPro-Regular.otf')
+}
+.green{
+    background-color: rgb(2, 107, 84);
+    width: auto;
+    height: 5px;
+    margin: 0px;
+    padding: 0px;
+}.logo{
+    height: 2em;
+}.gap{
+    margin-left: 1.5em;
+    font-size: 2em;
+}.gap1{
+    margin-left: 2.8em;
+}.fa-facebook:hover{
+    color: #3b5999;
+}.fa-twitter:hover{
+    color: #55acee;
+}.fa-instagram:hover{
+    color: #e4405f;
+}.fa-youtube:hover{
+    color: #cd201f;
+}.fa{
+    color: black;
+}
+.navbar1{
+    background-color: rgb(255 ,255, 255);
+    height: 2em;
+
+}.body{
+    background-color: #fffffa;
+}
+.cust-btn{
+    background-color: red;
+    color: #ffff;
+    border-radius: 2em 2em 2em 2em;
+    padding: 2em;
+    margin: 2em;
+}.logo1{
+    width: 9em;
+    height: 4em;
+}.big{
+    width: 1.5em;
+    height: 1em;
+}
+.item{
+    height: 34em;
+    width: auto;
+}.bg3{
+    background-image: url('./images/footer bg.jpg');
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    width: 100%;
+    color: white;
+    padding: 1em 0 3em 0;
+}.flex{
+    display: flex;
+}.smalls{
+    width: 9em;
+    height: 10em;
+    margin:1px 5px;
+}.smalls1{
+    width: 11em;
+    height: 10em;
+    margin: 1px 2em;
+}.hey{
+    width: 100%;
+    height: 100%;
+}
+.bg{
+    background-image: url('./images/shadow.jpg');
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 1em 0 3em 0;
+}#picsize{
+    height: 23.1em;
+}.bc{
+   width: 100%;
+}.bac{
+    transform: translateY(-30px);
+}
+.spacing{
+    word-spacing: .15em;
+    letter-spacing: .05em;
+    padding-left: 12em;
+    font-family: 'Ubuntu', sans-serif;
+}.custom{
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px 22px;
+    margin: 0em;
+}.ab.active a {
+    font-weight: bold;
+    color: white;
+    background-color: #fd2a2f;
+    border: 1px solid #fd2a2f;
+    border-radius: 50px;
+    padding: 7px 22px;
+    transition-delay: 250ms;
+}.ab.active a ,.custom-red{
+    font-weight: bold;
+    color: white;
+    background-color: #fd2a2f;
+    border: 1px solid #fd2a2f;
+    border-radius: 50px;
+    padding: 7px 22px;
+    transition-delay: 250ms;
+}.ab a:link{
+    text-decoration: none;
+} a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #fd2a2f;
+    border: 1px solid #fd2a2f;
+    border-radius: 50px;
+    padding: 7px 22px;
+    transition-delay: 250ms;
+}.xpad{
+    margin-top: 1.6em;
+}.custom:hover{
+    background: #fd2a2f;
+    color: white;
+    border: 1px solid #fd2a2f;
+    transition: all .5s ease; 
+}.custom-red:hover{
+    background: tomato;
+    color: white;
+    border: 1px solid tomato;
+}#pad{
+    padding-bottom: 5%;
+}.circledis{
+    width: 3em;
+    height: 3em;
+    background: #fd2a2f;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    transform: translateY(-31em)translateX(-0em);
+}.head-text{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 5.3em;
+    font-weight: 723;
+    color: #fec10d
+}.lower-text{
+    font-family: myraid;
+    font-size: 2em;
+}.fc{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffc20e
+}
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+    word-spacing: .15em;
+    letter-spacing: .05em;
+    font-weight: bold;
+}.ubuntu1{
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 1em;
+}#bg1{    
+    background: url('./images/cen-rt.jpg') no-repeat top right, url('./images/cen lb.jpg') no-repeat bottom left;
+    padding: 2em;
+    background-size: inherit;
+    display: block;
+    background-attachment: fixed;
+    width: 100%;
+}.mar{line-height: 3em;}.mar>.ab{
+    margin: 1.5em;
+}.sketchetik{
+    font-family: sketchetik;
+}.nav-cus{
+    position: absolute;
+    top: 20px;
+    transform: translateX(55%);
+}.nav-cus a:link{
+    color: black;
+    width: 80px;
+    padding: 1em,0;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+}.nav-cus a:visited{
+    color: black;
+    width: 80px;
+    padding: 1em,0;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+}.line{
+    width: 53px;
+    height: 0.15em;
+    margin: 2px 0px 0 14px;
+    background-color: #ffc20e;
+}
+a:nth-child(2):hover ~ .line{
+    transform: translate(6em);
+    transition: all 0.4s ease-in-out; 
+}a:nth-child(3):hover ~ .line{
+    transform: translate(12em);
+    transition: all 0.4s ease-in-out; 
+}a:nth-child(4):hover ~ .line{
+    transform: translate(18em);
+    transition: all 0.4s ease-in-out; 
+}a:nth-child(5):hover ~ .line{
+    transform: translate(24em);
+    transition: all 0.4s ease-in-out; 
+}a:nth-child(6):hover ~ .line{
+    transform: translate(30em);
+    transition: all 0.4s ease-in-out; 
+}a:nth-child(7):hover ~ .line{
+    transform: translate(36em);
+    transition: all 0.4s ease-in-out; 
+}a:nth-child(8):hover ~ .line{
+    transform: translate(42em);
+    transition: all 0.4s ease-in-out; 
+}
+
+/*card work*/
+
+.card{
+    margin: 1.5em;
+    height: 400px;
+    position: relative;
+    overflow: hidden;   
+}.card .post-img{
+    height: 300px;
+    overflow: hidden;
+}.card .post-img img{
+    transition: 0.5s;
+}.card:hover .post-img img{
+    transform: scale(1.2) translateY(-50px);
+}.card .news-cont{
+    position: absolute;
+   transition: 0.5s;
+   bottom: -40px;
+   background-color: #fff;
+}.card:hover .news-cont{
+    bottom: 0;
+}.card .news-cont .post-header{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 28px;
+    overflow: hidden;
+}.card .news-cont p{
+    font-size: 16 px;
+    margin: 0% 0 0;
+    padding: 0;
+    transition: .5s;
+    opacity: 0
+}.card:hover .news-cont p{
+    opacity: 1;
+}.thumbnail .caption {
+    padding: 0px;
+    color: #333;
+}
+/**card design end**/
+
+
+
+
+/*card pagination*/
