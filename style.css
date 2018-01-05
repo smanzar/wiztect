@@ -9,11 +9,11 @@
 .green{
     background-color: rgb(2, 107, 84);
     width: auto;
-    height: 5px;
+    height: 8px;
     margin: 0px;
     padding: 0px;
 }.logo{
-    height: 2em;
+    margin: 7px 0;
 }.gap{
     margin-left: 1.5em;
     font-size: 2em;
@@ -29,11 +29,6 @@
     color: #cd201f;
 }.fa{
     color: black;
-}
-.navbar1{
-    background-color: rgb(255 ,255, 255);
-    height: 2em;
-
 }.body{
     background-color: #fffffa;
 }
@@ -61,19 +56,26 @@
     width: 100%;
     color: white;
     padding: 1em 0 3em 0;
+}.bg3 .container{
+    padding: 0;
 }.flex{
     display: flex;
 }.smalls{
-    width: 9em;
     height: 10em;
+    width: 100%;
+    padding: 0 0.3em;
     margin:1px 5px;
+    text-align: justify;
 }.smalls1{
     width: 11em;
     height: 10em;
-    margin: 1px 2em;
+    text-align: justify;
 }.hey{
     width: 100%;
     height: 100%;
+}.box .btns{
+    color: white;
+    border: 2px solid #fff;
 }
 .bg{
     background-image: url('./images/shadow.jpg');
@@ -87,13 +89,25 @@
 }.bc{
    width: 100%;
 }.bac{
-    transform: translateY(-30px);
+    transform: translateY(-25px);    
+    width: 100%;
+}.carousel-caption{
+    top: 104px;
+}.carousel-indicators .active{
+    background-color: #fac800;
+}.pagination>li>a, .pagination>li>span{
+    background-color: #d1d1d1;
+    margin-left: 2px;
 }
 .spacing{
     word-spacing: .15em;
     letter-spacing: .05em;
     padding-left: 12em;
     font-family: 'Ubuntu', sans-serif;
+}.carousel-caption .custom-red{
+    padding: 12px 44px;
+}#show1 .custom{
+    padding: 12px 44px;
 }.custom{
     font-weight: bold;
     color: black;
@@ -129,7 +143,7 @@
     padding: 7px 22px;
     transition-delay: 250ms;
 }.xpad{
-    margin-top: 1.6em;
+    top: 1;
 }.custom:hover{
     background: #fd2a2f;
     color: white;
@@ -140,27 +154,38 @@
     color: white;
     border: 1px solid tomato;
 }#pad{
-    padding-bottom: 5%;
+    padding-bottom: 16%;
+}.carousel-inner .item img.img-responsive{
+    min-width: 100%;
+    object-fit: cover;
+    height: 755px;
 }.circledis{
-    width: 3em;
-    height: 3em;
+    width: 66px;
+    height: 66px;
     background: #fd2a2f;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
     color: white;
     border-radius: 50%;
-    padding: 2px 5px;
-    transform: translateY(-31em)translateX(-0em);
+    padding: 7px 5px;
+    transform: translateY(-25em)translateX(-0em);
 }.head-text{
     font-family: 'Cabin Sketch', cursive;
-    font-size: 5.3em;
+    font-size: 4.8vw;;
     font-weight: 723;
     color: #fec10d
 }.lower-text{
-    font-family: myraid;
-    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2.2vw;
 }.fc{
     font-size: 1.4em;
     font-weight: bold;
     color: #ffc20e
+}.picsize{
+    width: 100%;
+    height: 100%;
 }
 .ubuntu{
     font-family: 'Ubuntu', sans-serif;
@@ -173,65 +198,79 @@
 }#bg1{    
     background: url('./images/cen-rt.jpg') no-repeat top right, url('./images/cen lb.jpg') no-repeat bottom left;
     padding: 2em;
-    background-size: inherit;
-    display: block;
-    background-attachment: fixed;
     width: 100%;
-}.mar{line-height: 3em;}.mar>.ab{
-    margin: 1.5em;
-}.sketchetik{
+}.mar{line-height: 3em;}.mar .ab{margin-right: 1em;}.sketchetik{
     font-family: sketchetik;
-}.nav-cus{
-    position: absolute;
-    top: 20px;
-    transform: translateX(55%);
-}.nav-cus a:link{
-    color: black;
-    width: 80px;
-    padding: 1em,0;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
     font-weight: bold;
-    font-size: 1.2em;
-    font-family: 'Ubuntu', sans-serif;
-}.nav-cus a:visited{
-    color: black;
-    width: 80px;
-    padding: 1em,0;
+}.nav{
+    width: 100%;
+    height: 76px;
+    background-color: #ffffff;
+}.nav ul{
+    width: 100%;
+    padding: 0;
+    margin-top: 2em;
+}.ulist li{
+    list-style: none;
+    display: inline-block;  
+}.lessgap li{
+    margin-right: 1em;
+}.moregap li{
+    margin: 0 17px ;
+}.ulist li a{
     text-decoration: none;
-    text-align: center;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 1.2em;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
     font-family: 'Ubuntu', sans-serif;
-}.line{
-    width: 53px;
-    height: 0.15em;
-    margin: 2px 0px 0 14px;
-    background-color: #ffc20e;
-}
-a:nth-child(2):hover ~ .line{
-    transform: translate(6em);
-    transition: all 0.4s ease-in-out; 
-}a:nth-child(3):hover ~ .line{
-    transform: translate(12em);
-    transition: all 0.4s ease-in-out; 
-}a:nth-child(4):hover ~ .line{
-    transform: translate(18em);
-    transition: all 0.4s ease-in-out; 
-}a:nth-child(5):hover ~ .line{
-    transform: translate(24em);
-    transition: all 0.4s ease-in-out; 
-}a:nth-child(6):hover ~ .line{
-    transform: translate(30em);
-    transition: all 0.4s ease-in-out; 
-}a:nth-child(7):hover ~ .line{
-    transform: translate(36em);
-    transition: all 0.4s ease-in-out; 
-}a:nth-child(8):hover ~ .line{
-    transform: translate(42em);
-    transition: all 0.4s ease-in-out; 
+    display: block;
+    text-transform: uppercase;
+}.hre{
+    border-top: 1px solid #2b2b2b;    
+}.navbtn .pull-right{
+    position: relative;
+    margin-top: 1.6em;
+}.nav .col-xs-12{
+    padding: 0;
+}.ulist li a:hover:before{
+    left: 0;
+}.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 30px;
+    background-color: #fff;
+    color: #fff;
+    display: none;
+}@media (max-width:768px){
+    .toggle{
+        display: block;
+    }.navbtn{
+        display: none;
+    }
+    .ulist{
+        width: 100%;
+        display: none;
+        background-color: #3b5999;
+        text-align: center;
+    }.navbtn{
+        display: block;
+        text-align: left;
+    }.ulist .moregap li{
+        text-align: center;   
+    }.ulist li{
+        display: block;
+        text-align: center; 
+        color: #fff;
+        padding: 20px;       
+    }.ulist .lessgap li{
+        display: inline-block;
+    }.active{
+        display: block;
+    }.cus{
+        margin-top: 27em;
+    }
 }
 
 /*card work*/
@@ -248,33 +287,91 @@ a:nth-child(2):hover ~ .line{
     transition: 0.5s;
 }.card:hover .post-img img{
     transform: scale(1.2) translateY(-50px);
+    
 }.card .news-cont{
     position: absolute;
-   transition: 0.5s;
-   bottom: -40px;
-   background-color: #fff;
+    transition: 0.5s;
+    bottom: -90px;
+    background-color: #fff;
 }.card:hover .news-cont{
     bottom: 0;
 }.card .news-cont .post-header{
-    margin: 0;
+    margin-top: 0em;
     padding: 10px 0;
-    font-size: 28px;
+    font-size: 1.750em;
     overflow: hidden;
 }.card .news-cont p{
-    font-size: 16 px;
-    margin: 0% 0 0;
+    font-size: 16px;
+    margin: 0 0 1em 0;
+    padding: 0;
+    transition: .5s;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b3b3b3;
+    opacity: 0
+}.card .news-cont .star{
+    margin: 0 0 1em 0;
     padding: 0;
     transition: .5s;
     opacity: 0
+}.fa-star{
+    font-size: 12pt;
+    color: #fac800;
+}.card:hover .news-cont .star{
+    opacity: 1;
 }.card:hover .news-cont p{
     opacity: 1;
 }.thumbnail .caption {
     padding: 0px;
     color: #333;
+}.thumbnail{
+    box-shadow: 5px 5px 10px #dcdced;
+}.thumbnail:hover{
+    box-shadow: 5px 0.7em 10px #b3b3b3;
 }
 /**card design end**/
+.thumbnail .imag{
+    object-fit: cover;
+    height: 320px;
+}
+.moregap li a::before{
+    content: '';
+    display: block;
+    position: relative;
+    top: 25px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fec10d;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}.moregap li a:active::before {
+    background-color: #000;
+}
+.moregap li a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
 
 
+/*Carousel editing*/
 
-
-/*card pagination*/
+.carousel-control{
+    opacity: 1;
+}.carousel-control:focus, .carousel-control:hover{
+    opacity: 1;
+}.carousel-control.left,.carousel-control.right{
+    background-image: none;
+}.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+    left: 6%;
+}.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+    right: 10%;
+}.glyphicon-chevron-left:before {
+    content: "\e079";
+    background-color: #45403b;
+    padding: 0.19em;
+}.glyphicon-chevron-right:before {
+    content: "\e080";   
+    background-color: #45403b;
+    padding: 0.19em;
+}

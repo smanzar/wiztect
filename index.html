@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>        
     <script src="./script.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -16,52 +15,62 @@
     <title>Thai Spice</title>
 </head>
 <body>
-    <nav class="navbar navbar-white">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">            
-            <a class="navbar-brand" href="javascript:void(0);">
-                <img src="./images/logo1.jpg" alt="logo" class="logo">
-            </a>
-          </div>
-      
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div id="bs-example-navbar-collapse-1">
-              <div class="nav-cus">
-                <a href="javascript:void(0);">Menu</a>
-                <a href="javascript:void(0);">About Us</a>
-                <a href="javascript:void(0);">Catering</a>
-                <a href="javascript:void(0);">Rewards</a>
-                <a href="javascript:void(0);">Locations</a>
-                <a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <div class="line"></div>
-              </div>
-              <div class="text-right xpad">
-                <div class="ab">
-                  <a href="javascript:void(0);" class="custom-red">Order Online</a>
-                </div>
-              </div>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
+  <div class="green"></div>
+  <nav class="nav">
+    <span class="col-xs-6 col-md-2">
+      <img src="./images/logo.jpg" alt="logo" class="logo">
+    </span>
+    <span class="toggle">
+      <i class="fa fa-bars menu"></i>
+    </span>
+    <div class="col-md-8 col-xs-12 text-center">
+        <ul class="ulist">
+            <span class="moregap">
+                <li><a href="javascript:void(0);">menu</a></li>
+                <li><a href="javascript:void(0);">About us</a></li>
+                <li><a href="javascript:void(0);">Catering</a></li>
+                <li><a href="javascript:void(0);">rewards</a></li>
+                <li><a href="javascript:void(0);">location</a></li>
+            </span>
+            <span class="lessgap">
+                <li><a href="javascript:void(0);">
+                    <i class="fa fa-facebook"></i>
+                  </a></li>
+                  <li><a href="javascript:void(0);">
+                    <i class="fa fa-twitter"></i>
+                  </a></li>
+                  <li><a href="javascript:void(0);">
+                    <i class="fa fa-instagram"></i>
+                  </a></li>
+            </span>
+            
+          </ul>
+    </div>
+    <div class="col-md-2 navbtn">
+        <span class="pull-right">
+            <li class="ab">
+                <a href="javascript:void(0);" class="custom-red">Order Online</a>
+            </li>
+        </span>
+    </div>
+    
+  </nav>
 
-      <div>
-        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+      <div id="carousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             </ol>
           
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-              <div class="item active hey">
+              <div class="item active">
                 <img src="./images/slide1.jpg" alt="slider" class="img-responsive">
-                <div class="carousel-caption" id="pad">
+                <div class="carousel-caption">
                   <p class="text-uppercase head-text">Garlic Shrimp plate </p>
-                  <p class="text-uppercase lower-text">we are delevering seasonal, prawn meal with
+                  <p class="text-uppercase lower-text">we're delevering seasonal, prawn meal with
                     a goal to do good.
                   </p>
                   <div class="ab">
@@ -69,7 +78,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item hey">
+              <div class="item">
                 <img src="./images/slide1.jpg" alt="slider" class="img-responsive">
               </div>
             </div>
@@ -132,6 +141,13 @@
                                   <div class="news-cont">
                                     <h3 class="sketchetik post-header">Tom Kha Kai Tom Yum Kong</h3>
                                     <p>Thai spice has the simple goal to provide fresh, authentic food to its customer.</p>
+                                    <div class="star">
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -147,12 +163,19 @@
                             <div class="col-sm-6 col-md-4 col-xs-12">
                                 <div class="thumbnail card">
                                     <div class="post-img">
-                                      <img src="./images/card t2.jpg" alt="card pic" class="picsize">
+                                      <img src="./images/card t2.jpg" alt="card pic" class="picsize" style="object-fit: cover;">
                                     </div>
                                     <div class="caption text-center">
                                       <div class="news-cont">
-                                        <h3 class="sketchetik post-header">Sweet Sour Chicken Plate</h3>
+                                        <h3 class="sketchetik post-header">Sweet Sour Chicken Plates</h3>
                                         <p>Thai spice has the simple goal to provide fresh, authentic food to its customer.</p>
+                                        <div class="star">
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
                                       </div>
                                     </div>
                                 </div>
@@ -168,12 +191,19 @@
                             <div class="col-sm-6 col-md-4 col-xs-12">
                                 <div class="thumbnail card">
                                     <div class="post-img">
-                                      <img src="./images/card t3.jpg" alt="card pic" class="picsize">
+                                      <img src="./images/card t3.jpg" alt="card pic" class="picsize" style="object-fit: cover;">
                                     </div>
                                     <div class="caption text-center">
                                       <div class="news-cont bac">
                                         <h3 class="sketchetik post-header">Thai food Salad</h3>
                                         <p>Thai spice has the simple goal to provide fresh, authentic food to its customer.</p>
+                                        <div class="star">
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
                                       </div>
                                     </div>
                                 </div>
@@ -197,6 +227,13 @@
                                   <div class="news-cont">
                                     <h3 class="sketchetik post-header">Tom Kha Kai Tom Yum Kong</h3>
                                     <p>Thai spice has the simple goal to provide fresh, authentic food to its customer.</p>
+                                    <div class="star">
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                      <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -212,12 +249,19 @@
                             <div class="col-sm-6 col-md-4">
                                 <div class="thumbnail card">
                                     <div class="post-img">
-                                      <img src="./images/card t2.jpg" alt="card pic" class="picsize">
+                                      <img src="./images/card t2.jpg" alt="card pic" class="picsize" style="object-fit: cover;">
                                     </div>
                                     <div class="caption text-center">
                                       <div class="news-cont">
                                         <h3 class="sketchetik post-header">Sweet Sour Chicken Plate</h3>
                                         <p>Thai spice has the simple goal to provide fresh, authentic food to its customer.</p>
+                                        <div class="star">
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
                                       </div>
                                     </div>
                                 </div>
@@ -233,12 +277,19 @@
                             <div class="col-sm-6 col-md-4">
                                 <div class="thumbnail card">
                                     <div class="post-img">
-                                      <img src="./images/card t3.jpg" alt="card pic" class="picsize">
+                                      <img src="./images/card t3.jpg" alt="card pic" class="picsize" style="object-fit: cover;">
                                     </div>
                                     <div class="caption text-center">
                                       <div class="news-cont bac">
                                         <h3 class="sketchetik post-header">Thai food Salad</h3>
                                         <p>Thai spice has the simple goal to provide fresh, authentic food to its customer.</p>
+                                        <div class="star">
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                          <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
                                       </div>
                                     </div>
                                 </div>
@@ -269,7 +320,7 @@
             <div class="row">
               <div class="col-md-2"></div>
               <div class="col-md-7"> <br>
-                  <div class="mar">
+                  <div class="mar text-center">
                     <span class="ab active">
                       <a href="javascript:void(0);" class="custom btns" id="salad" name="item1">Salad</a>
                     </span>  
@@ -314,7 +365,7 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -322,7 +373,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -330,7 +381,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -341,7 +392,7 @@
                       <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -349,7 +400,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -357,7 +408,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                                 </div>
@@ -369,7 +420,7 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -377,7 +428,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -385,7 +436,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -396,7 +447,7 @@
                       <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -404,7 +455,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -412,7 +463,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                                 </div>
@@ -425,7 +476,7 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manZZZzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -433,7 +484,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -441,7 +492,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -452,7 +503,7 @@
                       <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -460,7 +511,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -468,7 +519,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                                 </div>
@@ -480,7 +531,7 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">mASAanzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -488,7 +539,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -496,7 +547,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -507,7 +558,7 @@
                       <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -515,7 +566,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -523,7 +574,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                                 </div>
@@ -536,7 +587,7 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -544,7 +595,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">massnzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -552,7 +603,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">manzar Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -563,7 +614,7 @@
                       <div class="row">
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t1.jpg" alt="card pic">
+                            <img src="./images/card t1.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -571,7 +622,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t2.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t2.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                             </div>
@@ -579,7 +630,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                           <div class="thumbnail">
-                            <img src="./images/card t3.jpg" alt="card pic" id="picsize">
+                            <img src="./images/card t3.jpg" alt="card pic" class="imag">
                             <div class="caption text-center">
                               <h3 class="sketchetik">Tom Kha Kai Tom Yum Kong</h3>
                                 </div>
@@ -606,24 +657,24 @@
 
       <div>
         <div class="bg3">
-          <div class="container">
-            <div class="col-md-5">
+          <div class="container-fluid">
+            <div class="col-md-5 col-xs-12">
               <p class="ubuntu fc">Location</p>
               <div class="flex">
                 <div class="box">
-                  <img src="./images/f1.jpg" alt="footer image" class="smalls">
+                  <img src="./images/f1.jpg" alt="footer image" class="img-responsive smalls">
                   <p class="smalls ubuntu1">
                       Thai Spice at The Tustin Market Place 13254 Jamboree Rd Irvine, CA 92602                      
                   </p>
                 </div>
                 <div class="box">
-                  <img src="./images/f2.jpg" alt="footer image" class="smalls">
+                  <img src="./images/f2.jpg" alt="footer image" class="img-responsive smalls">
                   <p class="smalls ubuntu1">
                       Thai Spice at MacArthur Plaza 2 Hutton Centre Suite 204 Santa Ana, CA 92707                      
                   </p>
                 </div>
                 <div class="box">
-                  <img src="./images/f3.jpg" alt="footer image" class="smalls">
+                  <img src="./images/f3.jpg" alt="footer image" class="img-responsive smalls">
                   <p class="smalls ubuntu1">
                       Thai Spice at Jeffrey
                       15455 Jeffrey Road Suite 315
@@ -632,69 +683,78 @@
                 </div>
               </div>  
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3 col-xs-12" style="padding-left: 1.7em;">
               <p class="ubuntu fc">Rewards</p>
-              <div class="box">
+              <div class="box" >
                 <img src="./images/f4.jpg" alt="footer image" class="smalls">
                 <p class="smalls ubuntu1">
                   Join and rack uo your reward Points.
                 </p>
               </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4 col-xs-12">
                 <p class="ubuntu fc">News / Blog</p>
                 <div class="flex">
                   <div class="box">
-                    <img src="./images/f5.jpg" alt="footer image" class="smalls1">
+                    <img src="./images/f5.jpg" alt="footer image" class="img-responsive smalls1">
                     <p class="smalls1 ubuntu1">
                         Belligerent lewd then banefully unimagine leopard therefore arousing 
                     </p>
+                    <div class="ab">
+                      <a href="javascript:void(0);" class="custom btns">Read More</a>
+                    </div> 
                   </div>
-                  <div class="box">
-                      <img src="./images/f6.jpg" alt="footer image" class="smalls1">
+                  <div class="box"style="margin-left:  1em;">
+                      <img src="./images/f6.jpg" alt="footer image" class="img-responsive smalls1">
                       <p class="smalls1 ubuntu1">
                           Belligerent lewd then banefully unimagine leopard therefore arousing 
                       </p>
+                      <div class="ab">
+                        <a href="javascript:void(0);" class="custom btns">Read More</a>
+                      </div>  
+                      
                   </div>
                 </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="col-md-1"></div>        
-        <div class="col-md-4" style="margin-top: 2.5em;">
-              <img src="./images/logo.jpg" alt="logo" class="logo1">
+      <div class="container">      
+        <div class="row">
+          <div class="col-md-4" style="margin-top: 2.5em;">
+            <img src="./images/logo.jpg" alt="logo" class="logo1">
+            <p class="ubuntu1">
+                Thai Spice has the simple goal to provide fresh, authenitc food to its customers. Thai Spice uses only 
+                the finest ingredients and the food is prepared to meet our customer's utmost satisfication.
+            </p>
+      </div>
+          <div class="col-md-4">
+              <h3 class="ubuntu1">Information</h3>
+               <hr class="hre">
               <p class="ubuntu1">
-                  Thai Spice has the simple goal to provide fresh, authenitc food to its customers. Thai Spice uses only 
-                  the finest ingredients and the food is prepared to meet our customer's utmost satisfication.
+                  FeedBack <span class="gap1">FAQ</span> <br> <br>
+                  Contact Us
               </p>
+          </div>
+          <div class="col-md-4">
+              <h3 class="ubuntu1">Contact With Us</h3> 
+              <hr class="hre"> <br>
+              <p>
+                 <span class="gap">
+                    <a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                 </span>
+                  <span class="gap">
+                      <a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </span>
+                  <span class="gap">
+                      <a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </span>
+                  <span class="gap">
+                      <a href="javascript:void(0);"><i class="fa fa-youtube" aria-hidden="true" class="big"></i></a>
+                  </span> 
+              </p>
+          </div>
         </div>
-            <div class="col-md-2">
-                <h3 class="ubuntu1">Information</h3> <hr>
-                <p class="ubuntu1">
-                    FeedBack <span class="gap1">FAQ</span> <br> <br>
-                    Contact Us
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3 class="ubuntu1">Contact With Us</h3> <hr> <br>
-                <p>
-                   <span class="gap">
-                      <a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                   </span>
-                    <span class="gap">
-                        <a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </span>
-                    <span class="gap">
-                        <a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </span>
-                    <span class="gap">
-                        <a href="javascript:void(0);"><i class="fa fa-youtube" aria-hidden="true" class="big"></i></a>
-                    </span> 
-                </p>
-            </div>
-            <div class="col-md-1"></div>
            
       </div>
 
@@ -702,12 +762,14 @@
                       <!--sub footer begin-->
 
       <div class="container">
-        <hr>
-        <div class="col-md-12 footerEnd">
+       <dv class="row">
+        <hr class="hre">
+        <div class="col-md-12">
           <p class="ubuntu1 text-center">
             Copyright <span>&copy;</span> 2016 Thai Spice. All rights reserved.
           </p>
         </div>
+       </dv>
       </div>
 </body>
 </html>

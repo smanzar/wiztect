@@ -16,6 +16,12 @@ $(document).ready (function(){
             $(".fa-chevron-left").addClass("disable");
         }
     });
+
+    /*for navbar */
+    $('.menu').on('click',function(){
+        $('ul').toggleClass('active');
+        $("#carousel").toggleClass('cus');
+    });
 });
 
 
